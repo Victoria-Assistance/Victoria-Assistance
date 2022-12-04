@@ -1,0 +1,186 @@
+h2 {
+    text-align: center;
+    border : 3px #ebced0 solid;
+    padding: 20px ;
+    margin-top: 30%;
+    margin-bottom: 15%;
+    background-color: pink;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.description
+{
+    width:100%;
+}
+.temoignage
+{
+    display: flex;
+    flex-direction: column;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom : 10%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.ensemble_temoignages{
+
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.titre
+{
+    margin-top:5%;
+}
+.image
+{
+    padding-top: 100px;
+}
+    
+    
+   a
+    {
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .accueil
+    {
+        margin: 20px;
+    }
+    
+    .services
+    {
+        margin: 20px;
+    }
+
+
+    .icone
+    {
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .icone_facebook
+    {
+        margin-left : 20px;
+        margin-right : 20px;
+    }
+    
+   
+    
+    .services
+    {
+        display: flex;
+        flex-direction : row;
+        justify-content: space-around;
+    }
+
+   
+    .cadre
+    {
+        background-color: #aee5d8;
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .photo
+    {
+        max-width : 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom:5%;
+    }
+
+    .star
+    {
+        color:#ffa41d;
+    }
+    h3
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        padding : 20px;
+    }
+    
+    p{  text-align: center; 
+        font-size:25px;
+    }
+
+    .apropos
+    {
+        padding-left:10%;
+        padding-right:10%;
+    }
+    
+    .ensemble_temoignages
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 5%;
+    }
+
+    /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    h2
+    {
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+}
+
+    /* Nouvelles règles si la fenêtre fait plus de 1200px*/
+    @media (min-width: 1201px) {
+    .ensemble_temoignages
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .temoignage
+{
+    display: flex;
+    flex-direction: row;
+}
+
+    p
+    {
+        padding-left : 20px;
+        padding-right:20px;
+    }
+
+
+   h3
+   {
+    font-size:25px;
+   }
+
+   h2
+   {
+       font-size: 30px;
+       margin-bottom:5%;
+       margin-top:5%;
+   }
+
+   .cadre
+    {
+        width:30%;
+    }
+
+    .description
+{
+    width:75%;
+}
+}

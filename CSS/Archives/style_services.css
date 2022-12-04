@@ -1,0 +1,350 @@
+#conteneur
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.selection
+  {
+    font-size:28px;
+  }
+
+.descri
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0% 10% 0% 10%;
+  }
+
+.liste
+  {
+    display: flex;
+    align-items: center;
+  }
+
+p
+  {
+    text-align: center;
+    font-size:14px;
+  }
+
+.assistance
+  {
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 400px / 400px;
+  }
+
+.visuels
+  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top:5%;
+  margin-top : 30%;
+  }
+
+.model
+  {
+  max-width : 50%;
+  max-height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:5%;
+  }
+
+.containt
+  {
+  display: flex;
+  flex-direction: column;
+  }
+
+.interviews
+  {
+  border: 3px #ebced0 solid; 
+  }
+
+.transcription
+  {
+  border: 3px #ebced0 solid; 
+  }
+
+.redaction
+  {
+  border: 3px #ebced0 solid; 
+  }
+
+h2 
+  {
+  border: 3px #ebced0 solid;
+  background-color: pink;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  }
+.proposition
+  {
+  display:flex;
+  justify-content: center;
+  }
+        
+.categories
+  {
+  display: flex;
+  flex-direction:row;
+  }
+          
+.containt
+  {
+  width:100%;
+  }
+          
+          
+.apropos
+  {
+  margin: 20px
+  }
+           
+.icone
+  {
+  padding-right: 20px;
+  padding-top: 10px;
+  }
+          
+          
+.description
+  {
+  border: 3px #ebced0 solid; 
+  margin: 10px; 
+  }
+
+h3 
+  {
+  border : 3px #ebced0 solid;
+  background-color: pink;
+  text-align: center;
+  font-size:30px;
+  }
+          
+.service_details
+  {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  }                         
+          
+h3
+  {
+  text-align: center;
+  }
+          
+          
+  /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+    @media (min-width: 768px) and (max-width: 1200px) {
+      h2 {
+        text-align: center;
+        border : 3px #ebced0 solid;
+        padding: 20px ;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: pink;
+        margin-left: 20%;
+        margin-right: 20%;
+        } 
+
+      .visuels
+      {
+        margin-top: 20%;;
+      }
+
+      .descri
+      {
+        display: flex;
+        flex-direction: row;
+      }
+        
+      .categories
+        {
+        display:flex;
+        width: 50%;
+        padding-left: 50px;
+        }
+                  
+      .apropos
+        {
+        margin: 20px
+        }
+                  
+      .contact
+        {
+        margin-top: 20px;
+        margin-left: 0px;
+        }
+                  
+      .icone
+        {
+        padding-right: 20px;
+        padding-top: 10px;
+        }
+ 
+      .icone_facebook
+        {
+        margin-left : 20px;
+        margin-right : 20px;
+        }
+                  
+      footer
+        {
+          text-align: center;
+        }
+        
+      .description
+        {
+          border: 3px #ebced0 solid; 
+          margin: 10px; 
+        }
+
+      h3
+        {
+          text-align: center;
+          padding-left : 20px;
+          padding-right : 20px;
+        }
+                  
+      p
+      {
+          text-align: justify; 
+          padding : 10px;
+      }
+    }
+            
+    /* Nouvelles règles si la fenêtre fait plus de 1200px*/
+    @media (min-width: 1200px) {
+      h2 
+      {
+        text-align: center;
+        border : 3px #ebced0 solid;
+        padding: 20px ;
+        margin-top: 10%;
+        margin-bottom: 50px;
+        background-color: pink;
+        margin-left: 20%;
+                  margin-right: 20%;
+                }
+
+                .descri
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+            
+
+.nom_service
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+.visuels
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ padding-top:15%;
+ margin-top: 0px;
+}
+                                   
+                  .categories
+                  {
+                      display:flex;
+                      width: 50%;
+                      padding-left: 50px;
+                  }   
+                  
+                  .apropos
+                  {
+                      margin: 20px
+                  }
+                  
+                  .contact
+                  {
+                      margin-left: 20px;
+                      font-size: 16px;
+                  }
+                  
+                  .icone
+                  {
+                      padding-right: 20px;
+                      padding-top: 10px;
+                  }
+                  
+                  .telephone
+                  {
+                    font-size: 20px;
+                  }
+                  
+                  .icone_facebook
+                  {
+                      margin-left : 20px;
+                      margin-right : 20px;
+                  }
+                  
+                  .footer
+                  {display: flex;
+                  flex-direction: row;
+                  justify-content: space-around;
+                  text-align: center;
+                  padding-top: 100px;
+                  padding-bottom: 40px;}
+          
+                  .tel
+                  {
+                    font-size:12px;
+                  }
+                  
+                  .description
+                  {border: 3px #ebced0 solid; 
+                      margin: 10px; 
+                  }
+                  
+                  h3
+                  {
+                      text-align: center;
+                      padding-left : 20px;
+                      padding-right : 20px;
+                  }
+                  
+                  p{
+                    
+                      text-align: justify; 
+                      padding : 10px;
+                      font-size:20px;
+                  }
+                  li
+                  {
+                    font-size: 20px;
+                  }
+                  a
+                  {
+                    margin:0px;
+                    padding:0px;
+                  }
+                }
+
+            
