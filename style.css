@@ -1,0 +1,27 @@
+.oneservice
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-responsive
+{
+    width: 40%;
+}
+
+
+.services
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:50%;
+    align-items: center;
+}
+
+footer
+{
+    align-items: center;
+}
