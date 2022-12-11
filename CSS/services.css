@@ -1,0 +1,30 @@
+.model
+{
+    width: 35%;
+    border-radius: 50% 10% 50% 10%;
+}
+
+.descri
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.liste
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 5%;
+}
+
+h2{
+    margin-bottom: 5%;
+    color: #07016B;
+    font-size: 40px;
+}
+
+li{
+    margin-bottom: 2%;
+}
