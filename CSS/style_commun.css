@@ -5,9 +5,74 @@
 	justify-content: center;
 }
 
+.banniere
+{
+    width:50%;
+}
+
+#contenu
+{
+    min-height: 100%;
+    position: relative;
+}
+
+body
+{
+    height:100%;
+}
+
+.navbar
+{
+    height:20%;
+    background-color: red;
+}
+
+.presentation
+{
+    height:70%;
+    background-color: aqua;
+    padding:5% 10% 5% 10%
+}
+
+
+
+body
+{
+    height:100%;
+}
+
+.navbar
+{
+    height:20%;
+    background-color: red;
+}
+
+.presentation
+{
+    height:70%;
+    background-color: aqua;
+    padding:5% 10% 5% 10%
+}
+
+html, body{
+    height:100%;
+}
+
+header
+{
+    display: flex;
+    height: 10%;
+}
+
 .presentation
 {
     text-align: center;
+}
+
+main{
+    min-height: 90%;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .fas
@@ -31,11 +96,13 @@
 .adresse
 {
   font-size:14px;
+  color : white;
 }
 
 .contact
 {
   font-size:14px;
+  color : white;
 }
 
 .containt
@@ -47,18 +114,22 @@
 
 body 
 {
-	margin: 0px;
+	margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
 }
 
 header
 {
   display:flex;
   position:fixed;
-  background:#aee5d8;
+  background:#10056B;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width:100%;
+  width: 100%;
+  height: 5%;
 }
 
 .telephone{
@@ -69,16 +140,13 @@ header
   font-weight: bold;
 }
 
-.containt
-{
-  width:100%;
-}
+
 
 
 a
 {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .icone_facebook
@@ -90,9 +158,13 @@ a
 footer
 {display: flex;
 flex-direction: row;
-background-color: #aee5d8;
+background: #0F056B;
 justify-content: space-around;
-text-align: left;
+align-items: center;
+text-align: center;
+width: 100%;
+height:20%;
+position: absolute;
 }
 
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
@@ -139,8 +211,8 @@ text-align: left;
   }
   
   .dark-mode {
-      --navbar-color: black;
-      --navbar-bg-color: #aee5d8;
+      --navbar-color: white;
+      --navbar-bg-color: #0F056B;
   }
   
   
@@ -164,7 +236,11 @@ text-align: left;
   }
   
   .main-content {
-      padding:1rem;
+      padding:3rem;
+      margin: 0;
+      padding: 0;
+      height:100%;
+
   }
   
   /* Navbar */
