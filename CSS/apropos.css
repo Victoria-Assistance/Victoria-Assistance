@@ -3,6 +3,13 @@
     width: 50%;;
 }
 
+.image
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+   
+}
 
 span
 {
@@ -19,11 +26,33 @@ h3
 .cadre
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 h1, h2{
     text-align: center;
     padding : 20px;
+}
+
+.description
+{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+
+.name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
