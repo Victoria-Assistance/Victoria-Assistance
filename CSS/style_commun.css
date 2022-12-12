@@ -5,6 +5,34 @@
 	justify-content: center;
 }
 
+@font-face 
+{
+	font-family: 'Lora-SemiBoldItalic';
+	src: url('Lora-SemiBoldItalic.ttf') format('ttf');
+
+    font-family: 'LaBelleAurore-Regular';
+    src: url('LaBelleAurore-Regular.ttf') format('ttf');
+}
+
+
+
+h1{
+    font-family: 'LaBelleAurore-Regular';
+    color: #F41355;
+    font-size: 60px;
+}
+
+
+h2{
+    font-family: 'Lora-SemiBoldItalic';
+    color: #07016B;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Lora-SemiBoldItalic';
+}
+
 .banniere
 {
     width:100%;
@@ -46,8 +74,6 @@ header
     height: 10%;
 }
 
-
-
 .fas
 {
   padding-right:10px;
@@ -65,6 +91,7 @@ header
 {
   font-size:14px;
   color : white;
+  font-family:'Lora-SemiBoldItalic';
 }
 
 .contact
@@ -91,6 +118,7 @@ header
   align-items: center;
   width: 100%;
   height: 5%;
+  font-family:'Lora-SemiBoldItalic';
 }
 
 .telephone{
@@ -108,6 +136,7 @@ a
 {
     text-decoration: none;
     color: white;
+    font-family:'Lora-SemiBoldItalic';
 }
 
 .icone_facebook
@@ -125,6 +154,7 @@ align-items: center;
 text-align: center;
 width: 100%;
 height:120px;
+font-family:'Lora-SemiBoldItalic';
 }
 
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
@@ -215,6 +245,7 @@ height:120px;
     .navbar__links
     {
         display:flex;
+        font-size: 20px;
     }
     
     .navbar__link

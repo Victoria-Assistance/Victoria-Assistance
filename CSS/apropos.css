@@ -11,6 +11,12 @@
    
 }
 
+@font-face 
+{
+	font-family: 'Lora-SemiBoldItalic';
+	src: url('Lora-SemiBoldItalic.ttf') format('ttf');
+}
+
 span
 {
 font-size:20px;
@@ -21,6 +27,7 @@ h3
 {
     font-weight: bold;
     padding-left: 10px;
+    font-family:'Lora-SemiBoldItalic';
 }
 
 .cadre
@@ -35,6 +42,7 @@ h3
 h1, h2{
     text-align: center;
     padding : 20px;
+    font-family:'Lora-SemiBoldItalic';
 }
 
 .description
@@ -46,6 +54,7 @@ h1, h2{
 p
 {
     text-align: center;
+    font-family:'Lora-SemiBoldItalic';
 }
 
 .name

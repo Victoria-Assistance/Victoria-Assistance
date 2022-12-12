@@ -6,6 +6,16 @@
     align-items: center;
 }
 
+@font-face 
+{
+
+
+    font-family: 'LaBelleAurore-Regular';
+    src: url('LaBelleAurore-Regular.ttf') format('ttf');
+}
+
+
+
 .img-responsive
 {
     width: 65%;
@@ -28,14 +38,13 @@ footer
     align-items: center;
 }
 
-h1{
-    color: #F41355;
-}
-
 p{
     color: #07016B;
+    font-family:'Lora-SemiBoldItalic';
 }
 
 h2{
     text-align: center;
+    color: #07016B;
+    font-family:'Lora-SemiBoldItalic';
 }
