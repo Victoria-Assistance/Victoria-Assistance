@@ -48,3 +48,8 @@ h2{
     color: #07016B;
     font-family:'Lora-SemiBoldItalic';
 }
+
+main
+{
+    height:640px;
+}
