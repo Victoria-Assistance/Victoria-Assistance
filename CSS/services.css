@@ -1,6 +1,6 @@
 .model
 {
-    width: 35%;
+    width: 25%;
     border-radius: 50% 10% 50% 10%;
 }
 
@@ -19,6 +19,10 @@ h1{
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
+    background-color: #F41355;
+    padding : 5% 0% 5% 0%;
+    justify-content: center;
+    border-radius: 30% 30% 30% 30%;
 }
 
 .liste
@@ -39,4 +43,20 @@ h2{
 li{
     margin-bottom: 2%;
     font-family: 'Lora-SemiBoldItalic';
+    color:white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:767.98px) {
+    .liste
+    {
+        padding-right: 10px;
+    }
+
+    .model
+    {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
 }
