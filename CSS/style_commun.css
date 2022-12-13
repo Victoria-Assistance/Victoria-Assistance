@@ -5,6 +5,14 @@
 	justify-content: center;
 }
 
+.contacter
+{
+    font-size: 20px;
+    background-color: #F41355;
+    padding: 20px;
+    border-radius: 100% 100%;
+}
+
 p{
     font-size: 20px;
     font-weight: bold;
