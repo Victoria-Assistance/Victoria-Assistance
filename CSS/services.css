@@ -19,7 +19,7 @@ h1{
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
-    background-color: #F41355;
+    background-color: #FEECF1;
     padding : 5% 0% 5% 0%;
     justify-content: center;
     border-radius: 30% 30% 30% 30%;
@@ -43,8 +43,9 @@ h2{
 li{
     margin-bottom: 2%;
     font-family: 'Lora-SemiBoldItalic';
-    color:white;
-    font-size: 20px;
+    color:#07016B;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 @media screen and (max-width:767.98px) {
