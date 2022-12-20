@@ -43,10 +43,7 @@ h2{
 li{
     margin-bottom: 2%;
     font-family: 'Lora-SemiBoldItalic';
-    color:#07016B;
-    font-weight: bold;
-    font-size: 24px;
-}
+    color:#07016B;}
 
 @media screen and (max-width:767.98px) {
     .liste
