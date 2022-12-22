@@ -59,3 +59,9 @@ li{
         padding-left: 20px;
     }
 }
+
+@media screen and (min-width:1200px) {
+    .liste
+    {
+        padding-bottom: 5px;
+    }
